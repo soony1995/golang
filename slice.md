@@ -1,23 +1,13 @@
+### 배열의 값을 변경하는 방법 
+
 ```
 func main() {
 	a := []RecordListResult{
 		{
-			Id:                 1,
-			Filename:           "test",
-			FileExist:          true,
-			Transcoding:        true,
-			TranscodedFilePath: "test",
-			DirPath:            "test",
-			CreatedAt:          time.Now(),
+			Id:                 1,			
 		},
 		{
 			Id:                 3,
-			Filename:           "test",
-			FileExist:          true,
-			Transcoding:        true,
-			TranscodedFilePath: "test",
-			DirPath:            "test",
-			CreatedAt:          time.Now(),
 		},
 	}
 
